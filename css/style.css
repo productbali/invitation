@@ -1,0 +1,474 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: century Gothic;
+}
+header {
+  padding-bottom: 20px;
+}
+
+#jarak1{
+ margin-top: 50px;
+}
+
+#jarak2{
+  padding-top: 300px;
+
+}
+
+#jarak3{
+    padding-bottom: 300px;
+}
+
+.bayang{
+  text-shadow: 7px 5px grey;
+}
+.penutup{
+  font-size: 50px;
+  text-align: center;
+  font-family: cursive;
+  letter-spacing: 10px;
+  color: white;
+}
+.bayang1{
+  text-shadow: 4px 1px grey;
+  font-family: cursive;
+  color: red; 
+  font-size: 20px;
+}
+
+ul{
+  list-style-type: none;
+  margin-top: 25px;
+  margin-bottom: 150px;
+  position: fixed;
+  float: left;
+  height: 20px;
+}
+ul li{
+  display: inline-block;
+ }
+
+ul li a{
+  font-family: cursive;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 3px solid trasparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+  border-radius:20px;
+  -moz-border-radius: 20px;
+}
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+  border-radius:20px;
+  -moz-border-radius: 20px;
+}
+.logo img{
+  float: left;
+  width: 100;
+  height:100px;
+  border-radius:100px;
+  -moz-border-radius: 100px;
+  margin-top: 20px;
+  float: right;
+}
+
+section{
+  min-height: 900px;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+#fulan{
+  padding-top: 30%;
+}
+
+#masjid{
+  height: 300px; 
+  width: 800px;
+    border-radius: 10%;
+}
+
+.klik{
+  font-family: cursive;
+}
+
+.walimatul{
+  color: #ffffff; 
+  font-size: 70px;
+}
+
+.undangan{
+  color: #ffffff;
+  font-size: 50px;
+}
+
+
+.acara{
+  font-size: 50px;
+  color: white;
+  font-family: calibry;
+}
+
+.a1{
+  border-radius: 50%;
+  margin-top: 10%;
+  margin-bottom: 50px;
+}
+
+.klikme{
+  width: 100px;
+  background-color: #fff;
+  color: white;
+  border-radius: 25px;
+  width: 600px;
+  height: 70px;
+  padding: 10px;
+}
+
+#ok{
+  background-image:url(../img/m1.png); 
+  background-size: cover; 
+  background-position: center;   
+  position: static;
+
+}
+
+.lagi{
+  color: #d4d4aa;
+  font-family: cursive;
+  font-weight: 50px;
+  font-size: 50px;
+}
+
+.main1{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../img/f.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  position: static;
+
+}
+.main2{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../img/g.jpg);
+  background-size: cover;
+  background-position: top-center;
+  background-size: cover;
+  position: static;
+
+}
+
+.judul{
+  float:right;
+  background-color: #993300;
+  height:50px;
+  width: auto;
+  opacity: 0.8;
+}
+
+.judul label {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.main3{
+  background-image:url(../img/c.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  position: absolute;
+
+}
+
+.main4{
+  background-image:url(../img/c.png);
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+
+}
+.container{
+  width: 900px;
+  height: auto;
+  left: 50%;
+  /* margin-left: 350px; */
+  font-family: cursive;
+  position:static;
+  background: trasparent;
+  display: block;
+
+}
+.container .title {
+  position: absolute;
+  padding-top: 200px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-shadow: 7px 5px grey;
+  /* padding-bottom: 40px; */
+}
+.container .title h1{
+  color: #fff;
+  font-size: 60px;
+  font-family: cursive;
+}
+.container .button{
+  position: absolute;
+  padding-top: 500px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding-bottom: 60px;
+  font-size: 25px;
+  text-shadow: 3px 3px grey;
+  display: block;
+}
+.container .button button{
+  background: transparent;
+  width: 200px;
+  font-size: 25px;
+  text-shadow: 3px 3px grey;
+  -webkit-transition: width 1s, height 2s;
+  transition: width 1s, height 2s;
+
+}
+.container .button button:hover{
+background: white;
+color: black;
+width: 300px;
+font-size: 40px;
+}
+.btn{
+  border: 2px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.9s ease;
+  border-radius: 100px;
+  -moz-border-radius:100px;
+  font-family: cursive;
+  cursor: pointer;
+}
+.container .txt{
+  position: absolute;
+  padding-top: 50px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:white;
+  /* padding-left: 0px; */
+}
+.container .txt label{
+  color: yellow;
+  font-family: cursive;
+  font-size: 25px;
+  text-shadow: 2px 1px white;
+}
+.container .isi{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:white;
+  margin-top: 500px;
+}
+
+
+.container .isi p{
+  color: white;
+  font-size: 20px;
+  text-align: justify;
+}
+ .container .judul{
+  background: trasparent;
+  color: white;
+  position: absolute;
+  margin-top: 750px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  /* color:white; */
+}
+.container .judul h2{
+  color: white;
+  font-size: 30px;
+  font-family: cursive;
+  background: transparent;
+}
+
+.container .isii{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:white;
+  margin-top: 1000px;
+  padding-bottom: 50px;
+}
+
+.container .isii p{
+  color: white;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.container2 p{
+  color: white;
+  padding-bottom: 50px;
+  scroll-behavior: smooth;
+}
+
+/* halaman belanja.php */
+.cari{
+  transform: translate(-50%,-50%);
+  padding-top:50px;
+  padding-right:70px;
+  height:90px;
+  width: 500px;
+  float: right;
+}
+.cari a{
+  background-color: black;
+  font-size: 20px;
+}
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+.kategori{
+  height: auto;
+  text-align: center;
+  padding-left: 450px;
+  width: 500px;
+  border-color: #fff;
+  border: 3px;
+  position: relative;
+  top: 30%;
+  padding-bottom: 70px;
+}
+
+.kategori  h2{
+  font-family: cursive;
+  color: #fff;
+  margin-bottom: 2px;
+  text-align: center;
+  padding-top: 50px;
+}
+.kategori h3{
+  font-family: cursive;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.kategori .katmot {
+  font-family: cursive;
+  height:50px;
+  width: 400px;
+  background: transparent;
+  color: white;
+  border-radius:20px;
+  -moz-border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tkotak{
+  display: inline;
+  background: green;
+  margin-top: 1200px;
+  color: white;
+  left: 50%;
+}
+
+ .tkotak label{
+  color: white;
+  font-size: 30px;
+  left: 50;
+}
+
+/* end hal belanja */
+
+/*start popup */
+.button #abc {
+width:320px;
+height:150px;
+opacity:0.9;
+margin-top: 550px;
+margin-left: 450px;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color: white;
+padding-bottom: 20px;
+border-radius: 0px 50px 50px 50px;
+position: fixed;
+/* transition: 10s; */
+}
+
+img#close {
+position:absolute;
+right:-3px;
+top:-25px;
+cursor:pointer;
+width: 30px;
+height:30px;
+border-radius:100px;
+-moz-border-radius: 100px;
+}
+.button #popupContact {
+position:absolute;
+left:50%;
+top:17%;
+margin-left:-202px;
+font-family:'Raleway',sans-serif;
+
+}
+#abc label {
+padding-top:10px;
+border-radius:10px;
+font-family:raleway;
+background-color:#fff;
+margin-top:700px;
+margin-left:50px;
+width: 250px;
+text-shadow: none;
+font-family: cursive;
+font-size: 20px;
+font-weight: 90px;
+}
+
+h2 {
+background-color:#FEFFED;
+padding:20px 35px;
+margin-left: 70px;
+text-align:center;
+border-radius:25px;
+width: 200px;
+}
+hr {
+margin:10px -50px;
+border:0;
+}
+
+span {
+color:red;
+font-weight:700
+}
+button {
+width:10%;
+height:60px;
+border-radius:25px;
+-moz-border-radius: 25px;
+background-color:#cd853f;
+color:#fff;
+font-family:cursive;
+font-size:18px;
+cursor:pointer
+}
+/* end popup */
